@@ -1,0 +1,19 @@
+{% extends '_layout.html' %}
+
+{% block content %}
+CReate new book
+{% endblock content %}
+
+
+{% block content %}
+<form action="">
+    {{form.csrf_token}}
+    <div>
+        {{form.title.label}} {{form.title}}
+    </div>
+    <div>
+        {{form.title.label}} {{form.title}}
+    </div>
+    <input type="submit" value="create">
+</form>
+{% endblock content %}
